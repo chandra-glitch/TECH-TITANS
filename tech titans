@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tech Titans</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Tech Titans</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contract">Contract</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Tech Titans</h2>
+        <p>Your one-stop platform for technology innovations and solutions.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a group of tech enthusiasts passionate about creating solutions for the future.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We provide software development, tech consultations, and innovative tech projects.</p>
+    </section>
+
+    <section id="contract">
+        <h2>Member Contract</h2>
+        <p>Please review our 4-year membership contract below:</p>
+        <button onclick="downloadContract()">Download Contract (PDF)</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tech Titans | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
